@@ -31,10 +31,6 @@ firebase deploy
 
 
 
-****************************************************************************
-TO START THE PROJECT LOCALLY
-
-npm start
 
 
 
