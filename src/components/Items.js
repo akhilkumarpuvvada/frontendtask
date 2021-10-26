@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Items({ title, patent_no, chemical_type }) {
-    // Item component receives values as props 
+    // Item component receives values as propsgit init
     return (
         <div style={{ width: "100%" }} className="item  rounded	flex flex-col  justify-between	p-4 cursor-pointer hover:drop-shadow">
 

@@ -11,13 +11,12 @@ const Chemicals = ({ searchType, textBoxValue }) => {
 
 
 
-    //API URL FOR PRODUCTION 
-    const PRODUCTION_API_URL = "http://chemical-search-pioneer.herokuapp.com/";
+   
 
 
 
     //API URL FOR PRODUCTION 
-    const PRODUCTION_API_URL2 = "https://chemovatorbackendmain.herokuapp.com/";
+    const PRODUCTION_API_URL2 = "https://chemovatorbackendmain.herokuapp.com/"; // This url is generated from backend using node.js and this url contains details of chemicals
 
 
     //API URL FOR DEVELOPMENT
@@ -31,7 +30,7 @@ const Chemicals = ({ searchType, textBoxValue }) => {
 
         // CHECKING THE SEARCH TYPE 
         if (searchType === "Chemical Type") {
-
+                // retreiving data from the URl that was developed using node js 
             axios.get(PRODUCTION_API_URL2 + "getChemicalDetailsChem" + "/" + textBoxValue)
                 .then((response) => {
 

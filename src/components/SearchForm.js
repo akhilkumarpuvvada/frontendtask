@@ -1,11 +1,11 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import TextField from "@mui/material/TextField";
 import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
-import FormLabel from "@mui/material/FormLabel";
+
 import Button from "@mui/material/Button";
 
 import Chemicals from '../components/Chemicals'
@@ -28,7 +28,7 @@ const SearchForm = () => {
   const searchButtonClick = () => {
     console.log(textBoxValue)
 
-    if (textBoxValue != '' && searchType != '') { setShowChemical(true); }
+    if (textBoxValue !== '' && searchType !== '') { setShowChemical(true); }
     else { console.log("Select the value") }
 
 

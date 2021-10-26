@@ -1,4 +1,4 @@
-import { React, useState } from 'react'
+import  React from 'react'
 import { useHistory } from "react-router-dom";
 import logo from '../logo.png'
 import { githubProvider } from "../config/authMethods"
@@ -22,7 +22,7 @@ function SignIn() {
             left: "50%",
             transform: "translate(-50%,-50%)"
         }}>
-            <img src={logo} className="pt- pb-10" />
+            <img src={logo} alt = 'company' className="pt- pb-10" />
             <GithubButton
                 onClick={() => { gitHubAuthButton(githubProvider); console.log('Github button clicked') }}
             />
