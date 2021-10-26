@@ -1,6 +1,7 @@
 
 PRE DEPLOYED APP URL
-https://chemovator-front.web.app/
+
+https://myfrontendchemicals.web.app/
 
 *********************************************************************************************
 TO DEPLOY THE FRONTEND TO FIREBASE HOSTING 
